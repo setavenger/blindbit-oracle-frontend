@@ -11,7 +11,6 @@ export function HeightDisplay() {
     targetUrl = torBaseURL;
   }
 
-
   useEffect(() => {
     const fetchHeight = () => {
       fetch(`${targetUrl}/block-height`)

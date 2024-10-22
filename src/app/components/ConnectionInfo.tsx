@@ -35,7 +35,6 @@ function CopyField({ label, value }: { label: string; value: string }) {
         {/*@ts-expect-error incomplete props*/}
         <Input label={label} value={value} readOnly />
       </div>
-      {/*@ts-expect-error incomplete props*/}
       <Button variant="text" size="sm" onClick={copyToClipboard}>
         <FiCopy size={20} />
       </Button>

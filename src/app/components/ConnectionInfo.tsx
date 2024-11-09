@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useConfig } from "../context/ConfigContext";
 import { Button, Input } from "@material-tailwind/react";
 import { FiCopy } from "react-icons/fi";
